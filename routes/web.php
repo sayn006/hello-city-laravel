@@ -2,16 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('pages.home');
-})->name('home');
-
-Route::get('/about-us', function () {
-    return view('pages.about');
-})->name('about');
 
 
+// Routes
+Route::view('/', 'pages.home')->name('home');
+Route::view('/about-us', 'pages.about')->name('about');
+
+// Avant
 Route::get('/help', function () {
     return view('pages.help');
-    
 })->name('help');
