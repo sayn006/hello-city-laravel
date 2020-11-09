@@ -4,14 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
 
    
     </head>
     <body class="antialiased">
         
-        <h1>Hello From France</h1>
-        <p>It's currently {{ date('h:i A') }}.</p>
+        
+        <p>Built with &hearts; by Sayn.</p>
+        <p><a href="/">Revenir à la page d'accueil</a></p>
 
 <footer>
     <p>
